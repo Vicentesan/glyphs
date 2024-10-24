@@ -48,13 +48,7 @@ export default function Home() {
             key={glyph.file}
             className="flex flex-col items-center justify-center gap-2"
           >
-            <Image
-              src={glyph.file}
-              width={128}
-              height={128}
-              alt=""
-              className="border"
-            />
+            <Image src={glyph.file} width={128} height={128} alt="" />
             <span>{glyph.name}</span>
           </li>
         ))}
