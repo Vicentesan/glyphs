@@ -6,6 +6,8 @@ import React from 'react'
 
 import { cn } from '@/lib/utils'
 
+import { ThemeToggle } from './theme/theme-toggle'
+
 const items = [
   {
     name: 'Glyphs',
@@ -54,7 +56,13 @@ export function NavBar() {
           </React.Fragment>
         ))}
       </div>
-      <Link href="/about">About</Link>
+      <div className="flex items-center justify-center gap-4">
+        <ThemeToggle />
+
+        <span className="block h-1 w-1 rounded-full bg-muted" />
+
+        <Link href="/about">About</Link>
+      </div>
     </nav>
   )
 }

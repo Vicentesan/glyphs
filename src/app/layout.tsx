@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 
 import { NavBar } from '@/components/navbar'
+import { ThemeProvider } from '@/components/theme/theme-provider'
 import { cn } from '@/lib/utils'
 
 const geistSans = localFont({
@@ -28,16 +29,26 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          'dark font-mono antialiased',
+          'font-mono antialiased',
           geistSans.variable,
           geistMono.variable,
         )}
       >
-        <NavBar />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="min-h-screen">
+            {/* do not remove this! THIS SHIT FIXES THE HYDRATION ERROR IN NEXTJS 13+ */}
+            <NavBar />
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
