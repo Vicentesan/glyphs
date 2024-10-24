@@ -39,7 +39,7 @@ export default function Home() {
         className={cn('mt-[50px] gap-8', {
           'flex items-center justify-center':
             Math.floor(sortedGlyphs.length / 3) >= 1,
-          'xs:grid-cols-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-9':
+          'grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-9':
             sortedGlyphs.length >= 9,
         })}
       >
