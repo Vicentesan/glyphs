@@ -20,7 +20,7 @@ export function SearchBox({
   search,
 }: SearchBoxProps) {
   return (
-    <div className="xs:w-80 relative w-52 text-muted-foreground transition-all duration-300 md:w-[500px]">
+    <div className="relative w-52 text-muted-foreground transition-all duration-300 xs:w-80 md:w-[500px]">
       <SearchIcon
         className={cn('absolute left-2 top-[0.5rem] size-5', {
           hidden: isSearching,
