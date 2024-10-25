@@ -31,7 +31,7 @@ export function NavBar() {
   }
 
   return (
-    <nav className="m-10 flex items-center justify-between text-lg font-semibold">
+    <nav className="flex items-center justify-between text-lg font-semibold">
       <div className="flex items-center justify-center gap-4">
         <Link href="/" className="text-2xl font-black">
           Suburbano

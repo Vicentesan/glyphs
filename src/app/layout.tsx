@@ -44,10 +44,10 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="@suburbano:theme-1.0.0"
         >
-          <div className="min-h-screen">
+          <div className="m-10 min-h-screen">
             {/* do not remove this! THIS SHIT FIXES THE HYDRATION ERROR IN NEXTJS 13+ */}
             <NavBar />
-            {children}
+            <div className="mt-10">{children}</div>
           </div>
         </ThemeProvider>
       </body>
