@@ -9,6 +9,22 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    animation: {
+      flip: 'flip 6s infinite steps(2, end)',
+      rotate: 'rotate 3s linear infinite both',
+    },
+    keyframes: {
+      flip: {
+        to: {
+          transform: 'rotate(360deg)',
+        },
+      },
+      rotate: {
+        to: {
+          transform: 'rotate(90deg)',
+        },
+      },
+    },
     extend: {
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
