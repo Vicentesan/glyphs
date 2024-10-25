@@ -11,6 +11,7 @@ Glyphs is a project developed with React and Next.js 15, aimed at facilitating t
 ## Technologies Used
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces.
 - [Next.js](https://nextjs.org/) - React framework for developing web applications with server-side rendering.
+- [shadcn/ui](https://shadcn.dev/) - A set of accessible and customizable UI components for React.
 
 ## Installation
 To install Glyphs, follow the steps below:
