@@ -1,51 +1,55 @@
 # Glyphs
 
-## Descrição
-Glyphs é um projeto desenvolvido com React e Next.js 15, destinado a facilitar a criação e manipulação de glyphs. Este software é ideal para designers, desenvolvedores e estudantes que desejam explorar a tipografia e a arte de fontes de forma intuitiva e eficiente.
+## Description
+Glyphs is a project developed with React and Next.js 15, aimed at facilitating the creation and manipulation of glyphs. This software is ideal for designers, developers, and students who want to explore typography and font art in an intuitive and efficient way.
 
-## Funcionalidades
-- **Criação e Edição de Glyphs**: Crie e edite glyphs personalizados com uma interface amigável.
-- **Visualização em Tempo Real**: Veja as alterações em tempo real enquanto edita seus glyphs.
-- **Exportação de Fontes**: Exporte seus glyphs como arquivos de fontes utilizáveis em projetos.
+## Features
+- **Glyph Creation and Editing**: Create and edit custom glyphs with a user-friendly interface.
+- **Real-Time Preview**: See changes in real-time while editing your glyphs.
+- **Font Export**: Export your glyphs as font files usable in projects.
 
-## Tecnologias Usadas
-- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário.
-- [Next.js](https://nextjs.org/) - Framework React para desenvolvimento de aplicações web com renderização do lado do servidor.
+## Technologies Used
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Next.js](https://nextjs.org/) - React framework for developing web applications with server-side rendering.
 
-## Instalação
-Para instalar o Glyphs, siga os passos abaixo:
+## Installation
+To install Glyphs, follow the steps below:
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Vicentesan/glyphs.git
+   ```
 
-2. Navegue até o diretório do projeto:
-    ```bash
+2. Navigate to the project directory:
+   ```bash
    cd glyphs
+   ```
 
-3. Instale as dependências::
-    ```bash
+3. Install the dependencies:
+   ```bash
    bun install
+   ```
 
-4. Inicie o servidor de desenvolvimento::
-    ```bash
+4. Start the development server:
+   ```bash
    bun dev
+   ```
 
-5. Acesse o aplicativo em seu navegador em http://localhost:3000.
+5. Access the application in your browser at http://localhost:3000.
 
-## Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga estas etapas:
+## Contribution
+Contributions are welcome! If you wish to contribute to the project, follow these steps:
 
-1. Faça um fork do repositório.
-2. Crie uma nova branch (git checkout -b minha-feature).
-3. Faça suas alterações e commit (git commit -m 'Adicionei uma nova feature').
-4. Envie sua branch (git push origin minha-feature).
-5. Abra um Pull Request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b my-feature).
+3. Make your changes and commit them (git commit -m 'Added a new feature').
+4. Push your branch (git push origin my-feature).
+5. Open a Pull Request.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT (Modificada). O uso comercial do software é estritamente proibido.
+## License
+This project is licensed under the Modified MIT License. Commercial use of the software is strictly prohibited.
 
-## Contato
-Para mais informações ou dúvidas, entre em contato:
+## Contact
+For more information or questions, contact:
 
 Vicente Sanchez - Vikom.sanchez@gmail.com
